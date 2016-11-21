@@ -57,3 +57,6 @@ _You'll need to enable [Google App Scripts](https://script.google.com) in your G
 #### Run the `labeler` function every minute
 
 ![](https://cloud.githubusercontent.com/assets/35968/11613896/eb399d16-9be5-11e5-8292-1ff11201da1e.png)
+
+#### Quota limits:
+https://script.google.com/dashboard
