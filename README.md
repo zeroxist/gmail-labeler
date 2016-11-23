@@ -58,5 +58,8 @@ _You'll need to enable [Google App Scripts](https://script.google.com) in your G
 
 ![](https://cloud.githubusercontent.com/assets/35968/11613896/eb399d16-9be5-11e5-8292-1ff11201da1e.png)
 
+#### Sample results:
+[![Screenshot from 2016-11-23 17-24-23.png](https://s3.postimg.org/4drnvq0j7/Screenshot_from_2016_11_23_17_24_23.png)](https://postimg.org/image/5st8kg1m7/)
+
 #### Quota limits:
 https://script.google.com/dashboard
