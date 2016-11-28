@@ -61,7 +61,7 @@ _You'll need to enable [Google App Scripts](https://script.google.com) in your G
 #### Sample results:
 [![Screenshot from 2016-11-23 17-24-23.png](https://s3.postimg.org/4drnvq0j7/Screenshot_from_2016_11_23_17_24_23.png)](https://postimg.org/image/5st8kg1m7/)
 
-currently leveraging this companion filters:
+currently leveraging this companion GMail native filter, to identify emails that the script will process
 [![Screenshot from 2016-11-28 11-57-03.png](https://s21.postimg.org/d74s7bojr/Screenshot_from_2016_11_28_11_57_03.png)](https://postimg.org/image/wc81h337n/)
 
 #### Quota limits:
