@@ -64,5 +64,13 @@ _You'll need to enable [Google App Scripts](https://script.google.com) in your G
 currently leveraging this companion GMail native filter, to identify emails that the script will process
 [![Screenshot from 2016-11-28 11-57-03.png](https://s21.postimg.org/d74s7bojr/Screenshot_from_2016_11_28_11_57_03.png)](https://postimg.org/image/wc81h337n/)
 
+```
+Matches: ((from:notifications@github.com OR replyto:users@*apache.org OR replyto:dev@*apache.org) OR replyto:*@*yahoogroups.com OR replyto:*@*lists.jboss.org) AND -label:OSS-personal)
+Do this: Apply label "OSS"
+
+Matches: (to:(author@noreply.github.com OR mention@noreply.github.com ) OR cc:comment@noreply.github.com)
+Do this: Apply label "OSS/personal", Categorize as Personal
+```
+
 #### Quota limits:
 https://script.google.com/dashboard
