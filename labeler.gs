@@ -2,19 +2,15 @@ var filters = [
   // RegEx match against the raw contents of the email
   // { name: 'user emails', match: /deliveredto:user@domain.com/, star: true }, // star emails deliveredto user@domain.com
   
-  // use a RegEx selector ([\s\S]+?) to set the label name
-  // the odd usage of [\s\S] is to emulate multiline matching.
-  // see http://stackoverflow.com/a/1068308/869502
+  // use a RegEx selector (.+?) to set the label name
   // Ex: 
   //      List-Id: Hibernate Dev List <hibernate-dev.lists.jboss.org>
-  { id: "First Filter", match: /(?:List-ID:\s([\s\S]+?)\s<)/i, archive: true }, // organize by list name 
+  { id: "First Filter", match: /(?:List-ID:\s(.+?)\s<)/i, archive: true }, // organize by list name 
 
-  // use a RegEx selector ([\s\S]+?) to set the label name
-  // the odd usage of [\s\S] is to emulate multiline matching.
-  // see http://stackoverflow.com/a/1068308/869502
+    // use a RegEx selector (.+?) to set the label name
   // Ex: 
   //      List-Id: <users.activemq.apache.org>
-   { id: "Second Filter", match: /(?:List-ID:\s*<([\s\S]+?)>)/i, archive: true }, // organize by list name 
+   { id: "Second Filter", match: /(?:List-ID:\s*<(.+?)>)/i, archive: true }, // organize by list name 
 
   
   // use the subject shortcut to check the subject for text
