@@ -10,7 +10,7 @@ var filters = [
     // use a RegEx selector (.+?) to set the label name
   // Ex: 
   //      List-Id: <users.activemq.apache.org>
-   { id: "Second Filter", match: /(?:List-ID:\s*<(.+?)>)/i, archive: true }, // organize by list name 
+   { id: "Second Filter", match: /List-ID:[^<]*<(.+?)>/i, archive: true }, // organize by list name 
 
   
   // use the subject shortcut to check the subject for text
